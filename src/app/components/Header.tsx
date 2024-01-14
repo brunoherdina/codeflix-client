@@ -11,7 +11,7 @@ export default function Header() {
     <header
       className={`${
         isScrolled && 'bg-gray-950'
-      } fixed top-0 z-50 flex w-full items-center justify-between  bg-gradient-to-b from-gray-950 to-transparent px-4 py-4 opacity-75 transition-all hover:bg-gray-950 lg:px-10 lg:py-6`}
+      } fixed top-0 z-50 flex w-full items-center justify-between  bg-gradient-to-b from-gray-950 to-transparent p-2 px-4 py-4 opacity-75 transition-all hover:bg-gray-950 lg:px-16 lg:py-6`}
     >
       <div className='flex items-center space-x-2 md:space-x-8'>
         <Logo />

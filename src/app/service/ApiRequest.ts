@@ -24,7 +24,7 @@ export function buildQueryString(params: ApiQueryParams) {
 
 export async function apiRequest(
     endpoint: string,
-    query: ApiQueryParams,
+    query: ApiQueryParams = {},
     options: RequestOptions = {}
 ) {
     const mergedOptions: RequestOptions = {...defaultRequestOptions, ...options};
